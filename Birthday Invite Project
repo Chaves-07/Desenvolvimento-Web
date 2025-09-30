@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Título da Minha Página</title>
+  </head>
+  <body>
+    <h1>É meu aniversário!</h1>
+    <h2>28 de outubro</h2>
+
+    <img src="feliz aniversário.jpg">
+
+    <h2>O que trazer:</h2>
+    <ol>
+        <li>Balões (Pra depois estourar! :D)</li>
+        <li>Bolo (Cenoura com chocolate)</li>
+        <li>Fome (Para comer o bolo)</li>
+    </ol>
+
+    <h2>Aqui que você precisa ir:</h2>
+    <a href="https://www.google.com/maps/place/R.+Beira+Rio+-+Efapi,+Chapec%C3%B3+-+SC,+89809-807/@-27.098988,-52.6861601,18z/data=!3m1!4b1!4m6!3m5!1s0x94e4b523c5f4bbb1:0xd3d616d4a1408d82!8m2!3d-27.0989904!4d-52.6848726!16s%2Fg%2F1ymv8zm9t?entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D">Endereço</a>
+  </body>
+</html>
