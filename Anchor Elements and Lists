@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Título da Minha Página</title>
+  </head>
+  <body>
+    <h1>Meus 5 sites favoritos</h1>
+    <ol>
+        <li><a href="https://www.notion.so/SOBRE-MIM-198f77e82a6180138ea6d1f91d9979de">Notion</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">Wikipedia</a></li>
+        <li><a href="https://chatgpt.com/?utm_source=google&utm_medium=paidsearch_brand&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_LATAM_BR_PT_120624&utm_term=chatgpt&utm_content=176757374629&utm_ad=742246226099&utm_match=e&gad_source=1&gad_campaignid=21990631164&gbraid=0AAAAA-IW-UU5eqwSykgOSMOtOWXzUtk6Y&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUP9tBN-7o2ac0J6PxMDg1Fj_QOW2HXbZYFoYvSQXHEsB8rwWJhwWJRoC7YwQAvD_BwE">Chatgpt</a></li>
+        <li><a href="https://www.crunchyroll.com/pt-br/offer-inpremium?utm_source=google&utm_medium=paid_cr&utm_campaign=CR_SVOD_LATAM_BR_goog_web_lf_Trademark-FTS-SplitEvent&utm_term=crunchyroll&referrer=google_paid_cr_CR_SVOD_LATAM_BR_goog_web_lf_Trademark-FTS-SplitEvent&gad_source=1&gad_campaignid=22928788753&gbraid=0AAAAADmLVRbOkRmTGjqUipBvJZ_i69_ny&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUPObu5JSrn54-PIa9kfPs-y6wZLR8XoxH9ObS3wBMXs2uFVyf1-54BoC1vYQAvD_BwE">Crunchyroll</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+    </ol>
+  </body>
+</html>
