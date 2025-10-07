@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Propriedades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: cornflowerblue;
+      color: white;
+      font-size: 18px;
+    }
+
+    #Color{
+        color: coral;
+    }
+
+    #FontSize{
+        font-size: 2rem;
+    }
+
+    #FontWeight{
+        font-weight: 900;
+    }
+
+    #FontFamily{
+        font-family: 'Caveat';
+    }
+
+    #TextAligh{
+        text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Important CSS Properties</h1>
+  <p id="Color">Color</p>
+  <p id="FontSize">Font Size</p>
+  <p id="FontWeight">Font Weight</p>
+  <p id="FontFamily">Font Family</p>
+  <p id="TextAlign">Text Align</p>
+</body>
+
+</html>
