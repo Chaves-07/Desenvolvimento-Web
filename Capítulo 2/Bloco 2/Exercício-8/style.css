@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+div{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.titulo{
+    font-style: "Libre Baskerville";
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+img{
+    text-align: center;
+    border: 5px solid white;
+    width: 100%
+}
+
+.texto{
+    text-align: center;
+    color: white;
+}
