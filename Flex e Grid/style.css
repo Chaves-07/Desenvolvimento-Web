@@ -1,0 +1,59 @@
+.flex-container{
+    /*1. Ativa o Flexbox*/
+    display: flex;
+
+    /*2. Define o eixo principal como linha (horizontal)*/
+    flex-direction: row;
+
+    /*3. Adiciona espaçamento entre os itens*/
+    gap: 20px;
+
+    /*Centralização e visualização*/
+    width: 80%;
+    max-width: 700px;
+    height: 250px;
+    padding: 10px;
+    border: 3px dashed #3498db;
+    background-color: #ecf0f1;
+    align-items: center; /*Alinha os itens verticalmente ao centro*/
+    justify-content: center; /*Alinha os itens horizontalmente no início flex-end, center, space-between*/
+    border-radius: 10px;
+}
+
+.item{
+    /*flex: 1; -> Permite que o item cresça e ocupe uma porção igual do espaço disponível.*/
+    flex: 1;
+    /*
+    flex-shrink: 8; Padrão 0
+    flex-grow: 1;   Padrão 1
+    */
+
+    /*flex-basics: 100px; Tamanho de "Padrão" do flex sem alterações*/
+    background-color: #2ecc71;
+    color: white;
+    text-align:center;
+    line-height: 100px; /*Centraliza o texto verticalmente*/
+    font-size: 1.5em;
+    border-radius: 8px;
+    height: 100px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.item:nth-child(2){
+    background-color: #e67e22;
+}
+
+.item:nth-child(3){
+    background-color: #9b59b6;
+}
+    /*Estilo de dica*/
+p.dica{
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 700px;
+    margin-top: 20px;
+}
