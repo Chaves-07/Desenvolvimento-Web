@@ -1,11 +1,19 @@
-const valor = document.getElementById("valor");
-const bntbotaoIncrementa = document.getElementsById("botaoIncrementa");
-const bntbotaoDecrementa = document.getElementsById("botaoDecrementa");
+const valorDisplay = document.getElementById("valor");
+const btnMaisUm = document.getElementById("btnMaisUm");
+const btnMenosUm = document.getElementById("btnMenosUm");
 
-bntbotaoIncrementa.addEventListener('click', function() {
-  valor.textContent = parseInt(valor.textContent) + 1;
+let contador = 0;
+
+function atualizarDisplay() {
+      valorDisplay.textContent = contador;
+}
+
+btnMaisUm.addEventListener('click', () => {
+    contador += 1;
+    atualizarDisplay();
 });
 
-bntbotaoDecrementa.addEventListener('click', function() {
-  valor.textContent = parseInt(valor.textContent) - 1;
+btnMenosUm.addEventListener('click', () => {
+    contador -= 1;
+    atualizarDisplay();
 });
