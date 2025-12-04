@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini-galeria de imagens</title>
+    <link rel="stylesheet" href="./style.CSS">
 </head>
 <style>
     img{
-        width: 100px;
+        width: 200px;
+        height: 200px;
     }
+
 </style>
 <body>
-    <img src="./assets/img/pode não.jpg">
-    <div>
-        <img src="./assets/img/Faz o L.jpg">
-        <img src="./assets/img/Na sua.png">
-        <img src="./assets/img/homer.jpg">
-        <img src="./assets/img/Shrek.jpg">
+
+    <img id="imagem-principal" src="./assets/img/pode não.jpg">
+
+    <div class="galeria-miniaturas">
+        <img class="mini" src="./assets/img/Faz o L.jpg" data-full-src="./assets/img/Faz o L.jpg">
+        <img class="mini" src="./assets/img/homer.jpg" data-full-src="./assets/img/homer.jpg">
+        <img class="mini" src="./assets/img/Na sua.png" data-full-src="./assets/img/Na sua.png">
+        <img class="mini" src="./assets/img/Shrek.jpg" data-full-src="./assets/img/Shrek.jpg">
     </div>
+
+    <script src="javascript.js"></script>
 </body>
 </html>
