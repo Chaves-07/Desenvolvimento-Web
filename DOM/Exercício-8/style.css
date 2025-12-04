@@ -1,0 +1,9 @@
+.fechar{
+    display: none;
+}
+
+#menu{
+    border: black solid;
+    background-color: cornsilk;
+    width: 180px;
+}

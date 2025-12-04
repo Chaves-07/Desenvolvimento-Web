@@ -1,7 +1,7 @@
 const quadrado = document.getElementsByClassName("quadrado");
-const bntBotao = document.getElementById("bntBotao");
+const btnBotao = document.getElementById("btnBotao");
 
-bntBotao.addEventListener('click', function() {
+btnBotao.addEventListener('click', function() {
   for (let item of quadrado){
     item.classList.toggle("highlight");
   }
