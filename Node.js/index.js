@@ -1,11 +1,12 @@
-let nome = process.argv[2];
-let classe = process.argv[3];
-let nivel = process.argv[4];
-let vida = process.argv[5];
-let mana = process.argv[6];
+let num1 = process.argv[2];
+let num2 = process.argv[3];
+let resultado;
 
-console.log("Nome: ", nome);
-console.log("Classe: ", classe);
-console.log("Nível: ", nivel);
-console.log("Vida: ", vida);
-console.log("Mana: ", mana);
+console.log("",num1);
+console.log("",num2);
+
+resultado = num1 + num2;
+console.log("Soma:", resultado);
+
+resultado = num1 * num2;
+console.log("Multiplicação:", resultado);
